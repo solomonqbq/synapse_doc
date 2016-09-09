@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/api/doctor/init](http://emkt.sfaessentials.com/api/doctor/init)
+[http://emkt.sfaessentials.com/v2/api/doctor/init](http://emkt.sfaessentials.com/v2/api/doctor/init)
 
 ## 接口描述
 
