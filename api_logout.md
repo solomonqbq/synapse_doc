@@ -34,8 +34,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:退出失败",
-    data:[]
+    code:10001,
+    msg:退出失败",
+    data:{}
 }
 ```
