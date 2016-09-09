@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/ajaxlogin](http://emkt.sfaessentials.com/aj/ajaxlogin)
+[http://emkt.sfaessentials.com/v2/aj/ajaxlogin](http://emkt.sfaessentials.com/aj/ajaxlogin)
 
 ## 接口描述
 
