@@ -104,8 +104,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"菜单数据为空",
-    data:[]
+    code:10001,
+    msg:"菜单数据为空",
+    data:null
 }
 ```
