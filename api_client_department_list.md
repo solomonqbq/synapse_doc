@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/api/department/list](http://emkt.sfaessentials.com/api/department/list)
+[http://emkt.sfaessentials.com/v2/api/department/list](http://emkt.sfaessentials.com/v2/api/department/list)
 
 ## 接口描述
 
