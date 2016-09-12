@@ -27,11 +27,11 @@
 
 # C端接口说明`接口平移，暂未测试可用性`
 - [C端医生信息转换IDB用户信息](api_client_initdoctor)  `已可用`
-- [全部科室列表] (api_client_department_list) `已可用`
-- [用户已点阅的科室列表](api_client_user_attention_department) `已可用` 
-- [订阅单个科室](api_client_attention_department) `已可用`
-- [保存订阅的科室信息](api_client_save_attention_department)`已可用`
-- [医学汇页面菜单列表](api_client_menulist) 
+- [全部科室列表] (api_client_department_list)
+- [用户已点阅的科室列表](api_client_user_attention_department)  
+- [订阅单个科室](api_client_attention_department)
+- [保存订阅的科室信息](api_client_save_attention_department)
+- [医学汇页面菜单列表](api_client_menulist) `已可用`
 - [根据科室筛选内容](api/client/department/subject/list)
 - [根据科室筛选文献](api/client/department/subject/essay/list)
 - [根据科室筛选QA](api/client/department/subject/qa/list)
