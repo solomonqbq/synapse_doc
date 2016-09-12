@@ -35,8 +35,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"发送失败",
-    data:[]
+    code:10001,
+    msg:"发送失败",
+    data:{}
 }
 ```
