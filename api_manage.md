@@ -1,0 +1,15 @@
+# 权限管理相关接口
+
+- [创建权限组](api_aj_group_create)
+- [编辑权限组内容](api_aj_group_edit)
+- [权限组列表](api_aj_group_list)
+- [权限组详情接口](api_aj_group_info)
+- [功能权限列表](api_aj_power_list)
+- [添加权限组成员](api_aj_group_adduser)
+- [删除权限组成员](api_aj_group_deleteuser)
+- [获取权限组成员列表](api_aj_group_userlist)
+- [修改权限组状态](api_aj_group_updatestatus)
+- [搜索权限组](api_aj_group_search)
+- [删除权限组](api_aj_group_delete)
+- [修改权限组成员状态](api_aj_group_updateuserstatus)
+- [修改用户权限](api_group_updateusergroup)
