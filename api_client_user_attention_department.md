@@ -69,8 +69,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"内部错误",
-    data:[]
+    code:10001,
+    msg:"内部错误",
+    data:null
 }
 ```
