@@ -43,6 +43,6 @@
 {
     error_code:10001,
     error:"error",
-    data:[]
+    data:null
 }
 ```
