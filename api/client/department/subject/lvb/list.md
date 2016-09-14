@@ -34,20 +34,20 @@
     "data": {
         "list": [
             {
-                "author": "呗意义",
-                "author_title": "教授",
-                "end_time": 1470303536000,
-                "description": "",
-                "begin_time": 1470217136000,
-                "title": "测试直播0802",
-                "meeting_end_time": "`2016-08-03 09:38:56`",
+                "author": "刘华",
+                "author_title": "呼吸科副主任",
+                "end_time": 1475140990000,
+                "description": "活血止痛，软坚散结。用于气虚血瘀，痰湿凝滞引起的慢性盆腔炎，症见白带增多者。",
+                "begin_time": 1472548990000,
+                "title": "久金直播",
+                "meeting_end_time": 1472556190000,
                 "type": 4,
-                "author_image": "http://emkt.sfaessentials.com/images/upload/20160802/14701309732981.png",
-                "tags": "测试直播，测试，测试001，二尺四，",
-                "uptime": 1470326702000,
-                "id": 13,
-                "qcloud_channel_id": 16093425727656288000,
-                "meeting_start_time": "`2016-08-02 10:00:56`"
+                "author_image": "http://emkt.sfaessentials.com/images/upload/20160830/14725495695580.png",
+                "tags": "久金直播，久金直播，久金直播，久金直播，久金直播，久金直播，久金直播",
+                "uptime": 1472549592000,
+                "id": 203,
+                "qcloud_channel_id": 9896587163583574000,
+                "meeting_start_time": 1472552590000
             }
         ],
         "total": 1
