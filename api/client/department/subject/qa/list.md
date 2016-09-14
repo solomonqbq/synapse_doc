@@ -114,8 +114,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"error",
-    data:[]
+    code:10001,
+    msg:"error",
+    data:null
 }
 ```
