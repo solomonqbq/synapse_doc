@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/v2/aj/account/findpassword](http://emkt.sfaessentials.com/aj/account/findpassword)
+[http://emkt.sfaessentials.com/v2/aj/account/findpassword](http://emkt.sfaessentials.com/v2/aj/account/findpassword)
 
 ## 接口描述
 
