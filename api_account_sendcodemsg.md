@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/account/sendvalidatemsg](http://emkt.sfaessentials.com/aj/account/sendvalidatemsg)
+[http://emkt.sfaessentials.com/v2/aj/account/sendvalidatemsg](http://emkt.sfaessentials.com/v2/aj/account/sendvalidatemsg)
 
 ## 接口描述
 
