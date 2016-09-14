@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/api/subject/vod/list](http://emkt.sfaessentials.com/api/subject/vod/list)
+[http://emkt.sfaessentials.com/v2/api/subject/vod/list](http://emkt.sfaessentials.com/v2/api/subject/vod/list)
 
 ## 接口描述
 
