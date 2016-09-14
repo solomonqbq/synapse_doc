@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/logout](http://emkt.sfaessentials.com/aj/logout)
+[http://emkt.sfaessentials.com/v2/aj/logout](http://emkt.sfaessentials.com/aj/logout)
 
 ## 接口描述
 
