@@ -38,8 +38,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"验证失败",
-    data:[]
+    code:10001,
+    msg:"验证失败",
+    data:{}
 }
 ```
