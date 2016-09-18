@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/account/review](http://emkt.sfaessentials.com/aj/account/review)
+[http://emkt.sfaessentials.com/v2/aj/account/review](http://emkt.sfaessentials.com/aj/account/review)
 
 ## 接口描述
 
@@ -36,8 +36,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"系统失败",
-    data:[]
+    code:10001,
+    msg:"系统失败",
+    data:{}
 }
 ```
