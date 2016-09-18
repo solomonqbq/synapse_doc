@@ -18,8 +18,8 @@
 | ---- | ----- | ----- | ----- | 
 | page | true | 无 | 页码 |
 | count| true | 无 | 记录条数| 
- |order| true | 无 | 排序字段|
- |order_type|true|无|排序规则| 
+|order| true | 无 | 排序字段|
+|order_type|true|无|排序规则| 
 
 ## 响应数据(JSON):
 > 成功
