@@ -9,6 +9,6 @@
 - [设置新密码](api_account_setpwd)
 - [密码重置邮件](api_account_resetpwdemail)
 - [密码重置](api_account_resetpwd)
-- [待审核用户列表] (api_user_reviewlist)
+- [公司列表] (api_user_reviewlist)
 - [审核用户] (api_user_review)
 - [左侧菜单] (api_user_menulist)
