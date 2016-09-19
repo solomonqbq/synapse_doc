@@ -10,5 +10,5 @@
 - [密码重置邮件](api_account_resetpwdemail)
 - [密码重置](api_account_resetpwd)
 - [公司列表] (api_user_reviewlist)
-- [审核用户] (api_user_review)
+- [修改用户的审核状态] (api_user_review)
 - [左侧菜单] (api_user_menulist)
