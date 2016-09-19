@@ -30,6 +30,7 @@
         "image": "",
         "periodical": "",
         "author": "",
+        "status": "",
         "source": "",
         "release_time": "2016-09-12 11:43:02",
         "tags": ""
