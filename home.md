@@ -4,7 +4,7 @@
 
 # 系统AJ接口说明
 
-- [登录注册相关](api_login)
+- [登录注册相关](api_login)`已可用`
 - [通用上传服务接口](api_upload)
 - [产品相关接口](api_product)
 - [领域相关接口](api_ta)
@@ -23,7 +23,7 @@
 
 - [点播相关接口](api_vod)
 - [直播相关](api_lvb)
-- [评论相关](api_comment) `已可用`
+- [评论相关](api_comment) 
 
 # C端接口说明`接口平移，暂未测试可用性`
 - [C端医生信息转换IDB用户信息](api_client_initdoctor)  `已可用`
