@@ -10,7 +10,7 @@
 - [领域相关接口](api_ta)
 - [信息点相关接口](api_keyword)
 - [权限管理相关接口](api_manage) `部分可用`
-- [资讯相关接口](api_essay)
+- [资讯相关接口](api_essay) `部分可用`
 - [QA相关接口](api_qa)
 
 - [直通车相关接口](api_instantAd)
