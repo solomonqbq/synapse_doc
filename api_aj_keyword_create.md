@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/keyword/create](http://emkt.sfaessentials.com/aj/keyword/create)
+[http://emkt.sfaessentials.com/v2/aj/keyword/create](http://emkt.sfaessentials.com/v2/aj/keyword/create)
 
 ## 接口描述
 
@@ -39,8 +39,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"新建信息点失败",
-    data:false
+    code:10001,
+    msg:"新建信息点失败",
+    data:{}
 }
 ```
