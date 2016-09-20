@@ -4,7 +4,7 @@
 
 # 系统AJ接口说明
 
-- [登录注册相关](api_login)`已可用`
+- [登录注册相关](api_login) `已可用`
 - [通用上传服务接口](api_upload)
 - [产品相关接口](api_product)
 - [领域相关接口](api_ta)
