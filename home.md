@@ -23,7 +23,7 @@
 
 - [点播相关接口](api_vod)
 - [直播相关](api_lvb)
-- [评论相关](api_comment)
+- [评论相关](api_comment) `已可用`
 
 # C端接口说明`接口平移，暂未测试可用性`
 - [C端医生信息转换IDB用户信息](api_client_initdoctor)  `已可用`
