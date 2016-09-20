@@ -9,6 +9,6 @@
 - [设置新密码](api_account_setpwd)  `可用`
 - [密码重置邮件](api_account_resetpwdemail)  `可用`
 - [密码重置](api_account_resetpwd)  `可用`
-- [公司列表] (api_user_reviewlist)   `可用`
+- [公司列表] (api_user_reviewlist)   ` 待审核及审核通过的公司`
 - [修改用户的审核状态] (api_user_review)  `可用`
-- [左侧菜单] (api_user_menulist)  `可用`
+- [左侧菜单] (api_user_menulist)  `目前是假数据`
