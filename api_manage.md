@@ -1,7 +1,7 @@
 # 权限管理相关接口
-
+- 1 调过 2 暂时不可以调 
 - [创建权限组](api_aj_group_create) `已可用1`
-- [编辑权限组内容](api_aj_group_edit) `已可用`
+- [编辑权限组内容](api_aj_group_edit) `已可用 2`
 - [权限组列表](api_aj_group_list) `已可用`
 - [权限组详情接口](api_aj_group_info) `已可用`
 - [功能权限列表](api_aj_power_list) `已可用`
