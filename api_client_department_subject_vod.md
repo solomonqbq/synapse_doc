@@ -1,0 +1,3 @@
+- [获取点播详情](api_client_department_subject_vod_detail)
+- [开始点播播放](api_client_department_subject_vod_play)
+- [记录有效播放](api_client_department_subject_vod_playtime)
