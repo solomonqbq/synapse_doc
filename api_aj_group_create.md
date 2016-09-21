@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/group/create](http://emkt.sfaessentials.com/aj/group/create)
+[http://emkt.sfaessentials.com/v2/aj/group/create](http://emkt.sfaessentials.com/v2/aj/group/create)
 
 ## 接口描述
 
