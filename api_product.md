@@ -1,9 +1,9 @@
 # 产品相关接口
-
+1 调完
 - [产品创建接口](api_aj_product_create)`可用`
 - [产品编辑接口](api_aj_product_edit)`可用`
-- [产品列表接口](api_aj_product_list)`可用（与搜索接口合并）`
+- [产品列表接口](api_aj_product_list)`可用（与搜索接口合并）1`
 - [产品详情接口](api_aj_product_info)`可用`
-- [产品搜索接口](api_aj_product_search)`可用`
+- [产品搜索接口](api_aj_product_search)`可用1`
 - [产品状态修改接口](api_aj_product_updatestatus)`可用`
 - [产品删除接口](api_aj_product_delete)`暂不可用`
