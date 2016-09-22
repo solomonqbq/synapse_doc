@@ -27,7 +27,6 @@
 | taboos | false | 无 | 禁忌 |
 | matters | false | 无 | 注意事项 |
 | classification | false | 无 | 药物分类|
-| department | false | 无 | 科室id，通过","隔开 | 
 | listing_time | false | 无 | 上市日期 |
 | price | false | 无 | 价格 |
 | status | false | 无 | 0:禁用，1:启用 |
