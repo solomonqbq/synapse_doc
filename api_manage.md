@@ -10,6 +10,6 @@
 - [获取权限组成员列表](api_aj_group_userlist) `已可用`
 - [修改权限组状态](api_aj_group_updatestatus) `已可用`
 - [搜索权限组](api_aj_group_search) `已可用`
-- [删除权限组](api_aj_group_delete)
+- [删除权限组](api_aj_group_delete) `已可用`
 - [修改权限组成员状态](api_aj_group_updateuserstatus)
 - [修改用户权限](api_group_updateusergroup)
