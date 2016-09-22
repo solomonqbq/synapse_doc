@@ -35,54 +35,56 @@ http://123.56.178.15:8088/v2/api/subject/qa/detail?qa_id=52
     "code": 10000,
     "msg": "Success",
     "data": {
-        "subject_id": 207,
-        "coverage": 601164,
-        "image": "http://emkt.sfaessentials.com/images/upload/20160824/1472023725300.png",
-        "company_id": 39,
-        "question": {
-            "head": "{\"head\":\"奋斗过后是就\",\"options\":[{\"id\":\"s6wz3d23\",\"content\":\"22\",\"isRight\":true},{\"id\":\"dqk68j7s\",\"content\":\"222\",\"isRight\":false}]}",
-            "type": 1,
-            "stem": "\"s6wz3d23\"",
-            "qa_id": 207,
-            "order": 0
-        },
+        "subject_id": 218,
+        "coverage": 601272,
+        "image": "http://emkt.sfaessentials.com/images/upload/20160825/14721159228373.png",
+        "company_id": 32,
+        "question": [
+            {
+                "head": "{\"head\":\"发电设备\",\"options\":[{\"id\":\"gspt8851\",\"content\":\"1\",\"isRight\":true},{\"id\":\"sm9x0kkz\",\"content\":\"2\",\"isRight\":false}]}",
+                "type": 1,
+                "stem": "\"gspt8851\"",
+                "qa_id": 218,
+                "order": 0
+            }
+        ],
         "relates": {
             "product": [
                 {
-                    "cn_name": "测试转换数据",
-                    "en_name": "",
-                    "id": 148945,
-                    "general_name": "33"
+                    "cn_name": "测试0825",
+                    "en_name": "ceshi",
+                    "id": 149033,
+                    "general_name": "测试"
                 }
             ],
             "keyword": [
                 {
-                    "description": "",
-                    "id": 338,
-                    "keyword": "芬太尼透皮贴剂、氯雷他定片-信息点"
+                    "description": "富家大室开发环境的康师傅还记得是否还记得看是否还记得看飞机快点发货德尚嘉咖啡得化发的是会计花费的空间十分回家的时刻发货单上飞机的花费的会计师",
+                    "id": 406,
+                    "keyword": "测试0825"
                 }
             ],
             "ta": [
                 {
-                    "name": "芬太尼透皮贴剂TA",
-                    "description": "",
-                    "id": 57
+                    "name": "测试0825",
+                    "description": "的时间发的和富家大室开发环境的康师傅还记得是否还记得看是否还记得看飞机快点发货德尚嘉咖啡得化发的是会计花费的空间十分回家的时刻发货单上飞机的花费的会计师",
+                    "id": 128
                 }
             ]
         },
-        "end_time": 1472626895000,
-        "begin_time": 1472022095000,
-        "promotion_id": 1519,
+        "end_time": 1472614808000,
+        "begin_time": 1472096408000,
+        "promotion_id": 1543,
         "threshold": 100,
-        "title": "测试推广启用",
-        "STATUS": 1,
+        "title": "测试825",
         "copies": 20,
-        "charge_id": 656,
-        "ctime": 1472023740000,
-        "template_id": 66,
-        "id": 207,
-        "create_user": 347,
-        "desc": "法大使馆和辅导教师开发大好时机烦得很随机发单删发布的设计费报价单上班房间号多少吧分级点睡不放假的办法那倒是不方便放暑假的开发比较好的"
+        "charge_id": 686,
+        "ctime": 1472115937000,
+        "template_id": 38,
+        "id": 218,
+        "create_user": 308,
+        "desc": "放大环境的变化很放得开富家大室开发环境的康师傅还记得是否还记得看是否还记得看飞机快点发货德尚嘉咖啡得化发的是会计花费的空间十分回家的时刻发货单上飞机的花费的会计师",
+        "status": 1
     }
 }
 ```
