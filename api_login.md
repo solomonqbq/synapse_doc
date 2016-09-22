@@ -1,6 +1,6 @@
 # 登录注册相关
 
-- [登录](api_ajaxlogin) `可用`
+- [登录](api_ajaxlogin) `调通`
 - [退出登录](api_logout)  `可用` 
 - [注册发送激活邮件](api_account_sendregmail) `可用`
 - [验证激活邮件中的链接参数是否合法](api_account_validatereglink)  `可用`
