@@ -2,7 +2,7 @@
 
 - [登录](api_ajaxlogin) `调通`
 - [退出登录](api_logout)  `可用` 
-- [注册发送激活邮件](api_account_sendregmail) `可用`
+- [注册发送激活邮件](api_account_sendregmail) `调通，激活地址需改为10.90.0.15`
 - [验证激活邮件中的链接参数是否合法](api_account_validatereglink)  `可用`
 - [发送手机验证码](api_account_sendcodemsg)  `功能没在本地测试过`
 - [激活保存注册信息](api_account_saveuser)  `可用`
