@@ -18,7 +18,7 @@
 
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
-| id | true | 无 |  直播id|
+| lvb_id | true | 无 |  直播id|
 | request_id| true | 无 | c端来源id|
 
 
@@ -120,7 +120,7 @@
 {
    code:10001,
     msg:"error",
-    data:[]
+    data:false
 }
 ```
 
