@@ -17,7 +17,7 @@
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
 | type | true | 无 | 搜索类型：simple（简单搜索）senior（高级搜索） |
-| key | true | 无 | 搜索关键词 | 
+| key | true | 无 | 搜索关键词对象 | 
 | page | false | 1 | 数据页数 | 
 | count | false | 20 | 每页数据量 |
 | order | false | 无 | 排序字段 | 
