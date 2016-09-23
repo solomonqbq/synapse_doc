@@ -25,30 +25,45 @@
 
 ```javascript
 {
-    code: 10000,
-    msg: "success",
-    data: {
-            [ {
-                power_id: "35",
-                power_name: "产品管理",
-              
-            },
-       
-         {
-                power_id: "36",
-                power_name: "咨询管理",
-              
-            },
-]
+  "code": 10000,
+  "msg": "Success",
+  "data": [
+    {
+      "power_name": "产品管理",
+      "power_id": 10001
+    },
+    {
+      "power_name": "信息点管理",
+      "power_id": 10002
+    },
+    {
+      "power_name": "治疗领域管理",
+      "power_id": 10003
+    },
+    {
+      "power_name": "医学咨询",
+      "power_id": 10004
+    },
+    {
+      "power_name": "问卷调查",
+      "power_id": 10005
+    },
+    {
+      "power_name": "医学视频",
+      "power_id": 10006
+    },
+    {
+      "power_name": "直通车",
+      "power_id": 10007
+    },
+    {
+      "power_name": "权限设置",
+      "power_id": 10008
+    },
+    {
+      "power_name": "账户充值",
+      "power_id": 10009
     }
-}
-```
-> 失败 
-
-```javascript
-{
-    error_code:10001,
-    error:"error",
-    data:false
+  ]
 }
 ```
