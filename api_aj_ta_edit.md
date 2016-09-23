@@ -17,8 +17,8 @@
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
 |ta_id| true| 无| 领域唯一ID|
-| name | false | 无 | 中文名 | 
-| description | false | 无  | 英文名 |
+| name | true| 无 | 领域名称 | 
+| description | false | 无  | 领域描述 |
 
 
 
