@@ -9,8 +9,8 @@
 
 - [登录注册相关](api_login) `已可用`
 - [通用上传服务接口](api_upload)
-- [产品相关接口](api_product)`已可用`
-- [领域相关接口](api_ta)`已可用`
+- [产品相关接口](api_product)`部分已可用`
+- [领域相关接口](api_ta)`部分已可用`
 - [信息点相关接口](api_keyword)
 - [权限管理相关接口](api_manage) `部分可用`
 - [资讯相关接口](api_essay) `部分可用`
