@@ -1,5 +1,7 @@
-## 接口约定
+# 整体接口响应约定
+
 前端需要依赖后台的返回值进行全局校验及部分业务逻辑的编写，故需要后台按照如下规则进行返回：
+
 > 1. 所有接口以json形式返回，返回值中必须包含code、msg字段，data字段可选；
 > 2. 成功时：code字段值为10000，msg字段值为“ success”，data字段为前端所需数据；失败时：code字段值为10001，msg字段值为错误信息内容；
 > 3. data字段在不同功能接口下，对应不同类型，可选值如下：
@@ -10,7 +12,7 @@
 
 1. 分页列表：Object
 
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -23,7 +25,7 @@
 
 2. 删除/更新操作
 
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -33,7 +35,7 @@
 
 3. 添加操作
 
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -43,7 +45,7 @@
 
 4.获取详情
 
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -51,13 +53,15 @@
     }
 ```
 
-## 具体接口约定
-### 搜索接口
+# 具体接口响应约定
+
+## 搜索接口
+
 >变化：取消list接口，不带高级搜索的和带高级搜索但未使用的统一使用简单搜索的格式返回到data中，带高级搜索并且启用高级搜索的使用高级搜索的格式返回到data中
 
 1. 简单搜索：
 
-```javascript
+```
      {  "type":"simple",
         "key":{
             "title": "xxx",
@@ -75,7 +79,7 @@
 
 2. 高级搜索:
 
-```javascript
+```
     {
         "type": "senior",
         "key": {
@@ -91,3 +95,43 @@
         "order_type": "desc"
     }
 ```
+
+# 整体接口请求约定
+
+>提交形式：GET和POST
+
+## GET请求格式
+
+```
+    data:{
+            key1："value1",        
+            key2：JSON.stringify({
+                name1:"xxx1",
+                name2:"xxx2",
+            })
+            key3:JSON.stringify([{name1:xx1},{name1:xx2}])
+        }
+```
+
+## POST请求格式
+
+```
+    data:JSON.stringify({
+            key1："value1",        
+            key2：{
+                name1:"xxx1",
+                name2:"xxx2",
+            },
+            key3：[xx1,xx2]
+        })
+    contentType: "application/json",
+    dataType: "JSON"
+```
+
+
+
+
+
+
+
+
