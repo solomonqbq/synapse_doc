@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/api/subject/vod/detail](http://emkt.sfaessentials.com/api/subject/vod/detail)
+[http://emkt.sfaessentials.com/v2/api/subject/vod/detail](http://emkt.sfaessentials.com/v2/api/subject/vod/detail)
 
 ## 接口描述
 
@@ -14,7 +14,7 @@
 
 ## 测试接口
 
-> http://123.56.178.15:8088/api/subject/vod/detail?essay_id=1&&request_id=59
+> http://123.56.178.15:8088/api/subject/vod/detail?vod_id=1&&request_id=59
 
 
 ## 请求参数(GET):
