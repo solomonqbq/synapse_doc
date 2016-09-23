@@ -28,7 +28,7 @@
     code: 10000,
     msg: "success",
     data: {
-             {
+            [ {
                 power_id: "35",
                 power_name: "产品管理",
               
@@ -39,6 +39,7 @@
                 power_name: "咨询管理",
               
             },
+]
     }
 }
 ```
