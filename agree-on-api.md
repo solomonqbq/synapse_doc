@@ -66,7 +66,7 @@
 ```
 2. 高级搜索:
 ```
-    {
+   data: {
         "type": "senior",
         "key": {
             "title": "xxx",
