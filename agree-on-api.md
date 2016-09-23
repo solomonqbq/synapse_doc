@@ -9,7 +9,7 @@
 >  - 获取详情：Object
 
 1. 分页列表：Object
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -20,7 +20,7 @@
     }
 ```
 2. 删除/更新操作
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -28,7 +28,7 @@
     }
 ```
 3. 添加操作
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -36,7 +36,7 @@
     }
 ```
 4.获取详情
-```javascript
+```
     {
         code:10000,
         msg:"success",
@@ -49,7 +49,7 @@
 >变化：取消list接口，不带高级搜索的和带高级搜索但未使用的统一使用简单搜索的格式返回到data中，带高级搜索并且启用高级搜索的使用高级搜索的格式返回到data中
 
 1. 简单搜索：
-```javascript
+```
      {  "type":"simple",
         "key":{
             "title": "xxx",
@@ -65,7 +65,7 @@
     }
 ```
 2. 高级搜索:
-```javascript
+```
     {
         "type": "senior",
         "key": {
