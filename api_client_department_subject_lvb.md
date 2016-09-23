@@ -1,3 +1,3 @@
 - [C端获取直播详情页面接口](api_client_department_subject_lvb_detail)
-- [开始点播播放](api_client_department_subject_lvb_play)
+- [开始直播播放](api_client_department_subject_lvb_play)
 - [记录有效播放](api_client_department_subject_lvb_playtime)
