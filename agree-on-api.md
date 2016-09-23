@@ -9,20 +9,20 @@
 >  - 获取详情：Object
 
 1.  分页列表：Object
-
-```
-    {
-        code:10000,
-        msg:"success",
-        data:{
-            total:0,
-            data:[]
+    
+    ```
+        {
+            code:10000,
+            msg:"success",
+            data:{
+                total:0,
+                data:[]
+            }
         }
-    }
-```
+    ```
 
 2.  删除/更新操作
-
+    
 ```
     {
         code:10000,
