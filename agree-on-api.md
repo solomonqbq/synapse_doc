@@ -55,7 +55,7 @@
         "key":{
             "title": "xxx",
             "cn_name": "",
-            "ta_name": ""，
+            "ta_name": "",
             "start": 时间戳,
             "end": 时间戳
         },
