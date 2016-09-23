@@ -89,25 +89,25 @@
 ## GET请求格式
 ```
     data:{
-            key1："value1",        
-            key2：JSON.stringify({
-                name1:"xxx1",
-                name2:"xxx2",
-            })
-            key3:JSON.stringify([{name1:xx1},{name1:xx2}])
-        }
+        key1："value1",        
+        key2：JSON.stringify({
+            name1:"xxx1",
+            name2:"xxx2",
+        })
+        key3:JSON.stringify([{name1:xx1},{name1:xx2}])
+    }
 ```
 
 ## POST请求格式
 ```
     data:JSON.stringify({
-            key1："value1",        
-            key2：{
-                name1:"xxx1",
-                name2:"xxx2",
-            },
-            key3：[xx1,xx2]
-        })
+        key1："value1",        
+        key2：{
+            name1:"xxx1",
+            name2:"xxx2",
+        },
+        key3：[xx1,xx2]
+    })
     contentType: "application/json",
     dataType: "JSON"
 ```
