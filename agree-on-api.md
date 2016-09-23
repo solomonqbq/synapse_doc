@@ -66,7 +66,7 @@
             "key":{
                 "title": "xxx",
                 "cn_name": "",
-                "ta_name": ""，
+                "ta_name": "",
                 "start": 时间戳,
                 "end": 时间戳
             },
@@ -104,11 +104,11 @@
 
 ```
     data:{
-        key1："value1",        
+        key1："value1",
         key2：JSON.stringify({
             name1:"xxx1",
             name2:"xxx2",
-        })
+        }),
         key3:JSON.stringify([{name1:xx1},{name1:xx2}])
     }
 ```
@@ -117,7 +117,7 @@
 
 ```
     data:JSON.stringify({
-        key1："value1",        
+        key1："value1",       
         key2：{
             name1:"xxx1",
             name2:"xxx2",
