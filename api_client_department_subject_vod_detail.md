@@ -14,7 +14,7 @@
 
 ## 测试接口
 
-> http://123.56.178.15:8088/api/subject/vod/detail?vod_id=1&&request_id=59
+> http://123.56.178.15:8088/v2/api/subject/vod/detail?vod_id=1&&request_id=59
 
 
 ## 请求参数(GET):
@@ -64,7 +64,7 @@
         "update_time": 1474338079000,
         "charge_id": 673,
         "author_hospital": "测试播放统计1011",
-        playSet: [ //点播播放地址，有两个，mp4的可以直接播放。
+        "playSet": [ //点播播放地址，有两个，mp4的可以直接播放。
                 [
                     {
                         url: "http://200019300.vod.myqcloud.com/200019300_baca68724a9511e696928df36f316a58.f0.mov",//
