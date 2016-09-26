@@ -27,7 +27,7 @@
 {
    code: 10000,
    msg: "Success",
-   data:  1,
+   data:  true,
 }
 ```
 > 失败 
