@@ -16,7 +16,7 @@
 
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
-| keyword | false | 无 | 搜索关键字 | 
+| key | false | 无 | 搜索关键字 | 
 | page | false | 1 | 数据页数 | 
 | count | false | 20 | 每页数据量 |
 | order | false | 无 | 排序字段 | 
