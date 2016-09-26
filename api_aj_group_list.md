@@ -18,7 +18,7 @@
 | ---- | ----- | ----- | ----- | 
 | page | false | 1 | 数据页数 | 
 | count | false | 20 | 每页数据量 |
-| order | false | 无 | 排序字段 | 
+| order | false | id | 排序字段 | 
 | order_type | false | asc | 排序类型(asc,desc) | 
 
 
