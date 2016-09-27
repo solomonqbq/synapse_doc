@@ -16,7 +16,7 @@
 
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
-|keyword_id| true| 无| 信息点唯一ID|
+|id| true| 无| 信息点唯一ID|
 | keyword | false | 无 | 中文名 | 
 | description | false | 无  | 英文名 |
 |product_ids| false | 无| 关联的产品id列表，多个用逗号分隔|
