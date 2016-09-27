@@ -1,4 +1,4 @@
-# 产品相关接口
+# 信息点相关接口
 
 - [信息点创建接口](api_aj_keyword_create)
 - [信息点编辑接口](api_aj_keyword_edit)
