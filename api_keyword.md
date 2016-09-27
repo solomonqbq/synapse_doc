@@ -7,6 +7,6 @@
 - [信息点搜索接口](api_aj_keyword_search)`可用`
 - [信息点状态修改接口](api_aj_keyword_updatestatus)`可用`
 - [信息点删除接口](api_aj_keyword_delete)`可用`
-- [根据关联关系获取信息点] (api_aj_keyword_relate)`可用`
-- [获取产品/领域关联的信息点]  (api_aj_keyword_prota)
+- [根据关联关系获取信息点] (api_aj_keyword_relate)
+- [获取产品/领域关联的信息点]  (api_aj_keyword_prota)`可用`
 - [获取引用信息点的资讯列表] (api_aj_keyword_essay)`可用`
