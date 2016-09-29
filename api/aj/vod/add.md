@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/aj/vod/add](http://emkt.sfaessentials.com/aj/vod/add)
+[http://emkt.sfaessentials.com/v2/aj/vod/add](http://emkt.sfaessentials.com//v2/aj/vod/add)
 
 ## 接口描述
 
@@ -77,8 +77,8 @@
 
 ```javascript
 {
-    error_code:10001,
-    error:"新建资讯失败",
+    code:10001,
+    msg:"新建资讯失败",
     data:false
 }
 ```
