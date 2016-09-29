@@ -1,6 +1,6 @@
-- [概况信息统计相关接口](api_statistics_general_info)
-- [趋势数据统计相关接口](api_statistics_general_trend)
-- [地区访问量统计相关接口](api_statistics_general_area)
-- [访问频次统计相关接口](api_statistics_general_Frequency)
-- [医院分级／医生分级统计相关接口](api_statistics_general_grades)
-- [专注度统计相关接口](api_statistics_general_usercount)
+- [概况信息统计相关接口](api_statistics_general_info)`可用`
+- [趋势数据统计相关接口](api_statistics_general_trend)`可用`
+- [地区访问量统计相关接口](api_statistics_general_area)`可用`
+- [访问频次统计相关接口](api_statistics_general_Frequency)`可用`
+- [医院分级／医生分级统计相关接口](api_statistics_general_grades)`可用`
+- [专注度统计相关接口](api_statistics_general_usercount)`可用`
