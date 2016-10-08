@@ -17,6 +17,9 @@
 | 参数 | 类型| 是否必传 | 默认值 |  描述 | 
 | ---- | ---- | ----- | ----- | ----- | 
 | id | integer | true | 无 | id |  
+|is_promotion_ch|Integer|true|无|is_promotion_ch|
+|is_relates_ch|Integer|true|无|is_relates_ch|
+|is_relates_ch|Integer|true|无|is_relates_ch|
 | vod | json | true | 无 | 相关信息 | 
 | promotion | json | true | 无 | 管理推广信息 |
 | relates |  json | true | 无 | 关联产品/TA/信息点 |
