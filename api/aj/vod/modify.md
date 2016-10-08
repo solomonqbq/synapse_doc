@@ -25,7 +25,6 @@
 > 参数说明
 ```javascript
 {  
-  
     "id":"221",
     "is_promotion_ch":"1",
     "is_relates_ch":"1",
@@ -101,12 +100,8 @@
     ]
 }
 ```
-
-
-
 ## 响应数据(JSON):
 > 成功
-
 ```javascript
 {
    code: 10000,
