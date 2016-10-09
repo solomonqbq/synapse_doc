@@ -17,7 +17,7 @@
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
 | doctor_id | true | 无 | C端医生id | 
-| name | false | 无 | C端医生名称|
+| name | true| 无 | C端医生名称|
 | city_id | true | 无 | C端定义的市id | 
 | hospital_id | true | 无  | C端定义的医院id |
 | department_id | true | 无 | C端定义的科室id |
@@ -33,7 +33,11 @@
 > 成功
 
 ```javascript
-{"code":10000,"msg":"succ","data":"http:\/\/115.28.133.147:8080\/#!\/menu\/menu\/19"}
+{
+    "code": 10000,
+    "msg": "Success",
+    "data": "http://10.90.0.15/h5/#!/menu/menu?req_id=138"
+}
 ```
 > 失败 
 
