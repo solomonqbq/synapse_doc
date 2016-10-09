@@ -20,7 +20,6 @@
 | key | json | true | 无 | 见下 |
 | page | integer | false | 1 | 页码 | 
 | count | integer | false | 10 | 每页个数 | 
-| extra | integer | false | 0 | 是否返回扩展字段，否:0, 是:1 | 
 | status | integer | false | 0 | 资讯状态，禁用:0, 激活:1, 2:过期，3:草稿，不传返回所有 | 
 
 > simple搜素
