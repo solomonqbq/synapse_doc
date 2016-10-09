@@ -24,12 +24,12 @@
 
 > simple搜素
 ```javascript
-key={"title":"搜索"}
+key={"title":"名称","cn_name":"","ta_name":"","start":"", "end":""}
 ``` 
 
 > senior搜索
 ```javascript
-key={"title":"名称","general_name":"产品","ta_name":"领域","keyword":"信息点","start":"2016-01-01", "end":"2017-01-01"}
+key={"title":"名称","cn_name":"产品","ta_name":"领域","start":"2016-01-01", "end":"2017-01-01"}
 ```
 
 
