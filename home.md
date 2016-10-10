@@ -40,7 +40,7 @@
 - [根据科室筛选QA（H5调用）](api/client/department/subject/qa/list)`已可用`
 - [根据科室筛选点播（H5调用）](api/client/department/subject/vod/list)`已可用`
 - [根据科室筛选直播（H5调用）](api/client/department/subject/lvb/list)`已可用`
-- [资讯（文献）详情（H5调用）](api_client_literature_info) 
+- [资讯（文献）详情（与友方app对接）](api_client_literature_info) 
 - [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
 - [C端获取资讯详情页面接口（H5调用）](api_client_department_subject_essay_detail)`已可用`
 - [C端获取问卷详情页面接口（H5调用）](api_client_department_subject_qa_detail)`已可用`
