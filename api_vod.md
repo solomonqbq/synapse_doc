@@ -13,4 +13,4 @@
 - [点播启用接口](api/aj/vod/enable)`可用`
 - [点播禁用接口](api/aj/vod/disable)`可用`
 - [点播删除接口](api/aj/vod/remove)`可用`
-- [点播评论状态接口](api/aj/vod/comment_status)
+- [点播评论状态接口](api/aj/vod/comment_status)`可用`
