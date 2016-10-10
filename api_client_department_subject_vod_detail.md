@@ -65,7 +65,7 @@
         "charge_id": 673,
         "author_hospital": "测试播放统计1011",
         "playSet": [ //点播播放地址，有两个，mp4的可以直接播放。
-                [
+                
                     {
                         url: "http://200019300.vod.myqcloud.com/200019300_baca68724a9511e696928df36f316a58.f0.mov",//
                         definition: 0,
@@ -80,7 +80,7 @@
                          vheight: 426,
                          vwidth: 640
                     }
-                ]
+               
             ] ,
         "id": 165,
         "coverage": 601219,
