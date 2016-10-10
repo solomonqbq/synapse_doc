@@ -1,32 +1,43 @@
-# 产品相关接口:H5落地页获取资讯详情内容
+# 产品相关接口:资讯内容详情接口
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/v2/api/subject/essay/detail](http://emkt.sfaessentials.com/v2/api/subject/essay/detail)
+[http://emkt.sfaessentials.com/api/literature/info](http://emkt.sfaessentials.com/api/literature/info)
 
 ## 接口描述
 
-> H5落地页获取资讯详情内容,并进行扣费操作
+> 文献详情接口
+
+## 测试链接（第一种传参方式）
+> 测试接口请求（识别request_id的调用方式）：http://emkt.sfaessentials.com/api/literature/info?literature_id=71&request_id=26
+
+## 测试链接（第二种传参方式）
+> 测试接口请求（识别c端多组参数的调用方式）：http://emkt.sfaessentials.com/api/literature/info?literature_id=71&doctor_id=10011222&source_id=C0001&department_id=1018&doctor_grade_id=9&hospital_grade_id=32&hospital_id=111&province_id=1&source_id=C0001
 
 ## 认证方式
 
 > false
 
-## 测试接口
-
-> http://123.56.178.15:8088/v2/api/subject/essay/detail?essay_id=69&request_id=111
-
-
-
-
-
-## 请求参数(GET):
+## 第一种请求方式：请求参数(GET):
 
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
-| essay_id | true | 无 |  资讯id|
-| request_id | true | 无 | 用户uid|
+| request_id | true | 无 | 请求id（doctor_id) | 
+| literature_id | true | 无 | 文献id | 
 
+## 第二种请求方式：请求参数(GET):
+| 参数 | 是否必传 | 默认值 |  描述 | 
+| ---- | ----- | ----- | ----- | 
+| literature_id | true | 无 | 文献id | 
+| doctor_id | true | 无 | C端医生id | 
+| name | false | 无 | C端医生名称|
+| city_id | true | 无 | C端定义的市id | 
+| hospital_id | true | 无  | C端定义的医院id |
+| department_id | true | 无 | C端定义的科室id |
+| indications_id | false | 无 | C端定义的适应症id |
+| doctor_grade_id | true | 无 | C端定义的医生等级 |
+| hospital_grade_id | true | 无| C端定义的医院等级|
+| source_id | true | 无 | C端来源id |
 
 
 ## 响应数据(JSON):
@@ -35,54 +46,58 @@
 ```javascript
 {
     "code": 10000,
-    "msg": "Success",
+    "msg": "success",
     "data": {
-        "id": 256,
-        "title": "asdfasfdas",
-        "image": "http://emkt.sfaessentials.com/images/upload/20160820/14716272015048.png",
-        "periodical": "asdfasfda",
-        "author": "asdfasdfas",
-        "release_time": 1471626721000,
-        "content_id": 306,
-        "promotion_id": 1383,
-        "status": 1,
-        "company_id": 37,
-        "create_user": 345,
-        "insert_time": 1471627214000,
-        "update_time": 1474158559000,
-        "relates": {
-            "product": [
-                {
-                    "cn_name": "测试花费1",
-                    "en_name": "ceshi",
-                    "id": 149015,
-                    "general_name": "测试"
-                }
-            ],
-            "keyword": [
-                {
-                    "description": "发动机号",
-                    "id": 386,
-                    "keyword": "测试花费1"
-                }
-            ],
-            "ta": [
-                {
-                    "name": "测试花费1",
-                    "description": "返回",
-                    "id": 110
-                }
-            ]
+        "literature_id": "71",
+        "content_id": "84",
+        "drug_id": "148902",
+        "keyword_id": "21",
+        "alias": "",
+        "status": "0",
+        "group_id": "4",
+        "create_user": {
+            "id": "121",
+            "nickname": "wzeng",
+            "realname": "",
+            "useremail": "wzeng@ideabinder.com",
+            "gender": null,
+            "phone": "15901235813",
+            "avatar": "",
+            "company": "西安杨森",
+            "company_licence": "http://emkt.sfaessentials.com/images/upload/20160229/14567153572235.png",
+            "group_id": "4",
+            "status": "1",
+            "ctime": "2016-02-29 11:07:17",
+            "utime": "2016-03-14 11:22:32"
         },
-        "content_en": null,
-        "content_cn": "<p>asfdasfdas</p>",
-        "subject_id": 256,
-        "template_id": 54,
-        "charge_id": 544,
-        "threshold": 111,
-        "coverage": 600806,
-        "begin_time": 1471626721000,
-        "end_time": 1471626721000
+        "parent_folder_id": "169209",
+        "insert_time": "2016-03-14 14:17:03",
+        "expire_time": "2016-03-20 00:00:00",
+        "update_time": "2016-03-17 14:21:24",
+        "keyword_info": {
+            "keyword_id": "21",
+            "keyword": "妥泰-信息点2",
+            "description": "妥泰-信息点信息点123456789地方地方",
+            "source": "",
+            "status": "4",
+            "group_id": "4",
+            "create_user": "121",
+            "insert_time": "2016-03-14 13:56:39",
+            "expire_time": "2016-03-19 00:00:00",
+            "update_time": "2016-03-21 09:33:07"
+        },
+        "literature_content": {
+            "content_id": "84",
+            "title": " 妥泰-心力衰竭在急诊室的处理原则",
+            "icon": "http://emkt.sfaessentials.com/images/upload/20160314/14579360355228.png",
+            "source": "西安杨森",
+            "author": "丁香园通讯员",
+            "periodical": "丁香园",
+            "content_en": "null",
+            "content_cn": "&lt;p&gt;在 3 月 11 日的 2016 中国国际心力衰竭大会暨中国医师协会心力衰竭专业委员会第一届学术年会上，来自北京朝阳医院急诊科的副主任梅雪就《心力衰竭在急诊室的处理原则》做了精彩的演讲。&lt;/p&gt;&lt;p&gt;梅主任指出，现在越来越多的心力衰竭患者从急性心力衰竭发作到病情趋于稳定直至最后出院都在急诊科。因而，急诊医生掌握科学有效的处置方法尤为重要。&lt;/p&gt;&lt;p&gt;&lt;img alt=\"781419333639819872.jpg\" src=\"http://img.dxycdn.com/cms/upload/userfiles/image/2016/03/12/B1457664720_small.jpg\" title=\"\" /&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;急诊科心力衰竭的概述&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;急诊科的心力衰竭大多为急性发作的失代偿，而且绝大部分是在慢性心功能不全的基础上，诱因驱使下突然失代偿，进而发生急性心力衰竭；少部分患者由于急症导致心功能的急速恶化最终发展至急性心力衰竭。&lt;/p&gt;&lt;p&gt;心 力衰竭有各种各样的分级，例如 killip 分级、根据症状分级等，贯穿于心脏的功能评价体系内。其中，国内外指南中备受推荐的是 NYHA 分级。急诊科最常用的是根据临床症状分级，主要通过观察肺部啰音、肺水情况、四肢末梢循环灌注判断心功能情况。通俗来讲也就是肺里的「干」和「湿」及四肢 的「暖」和「冷」。&lt;/p&gt;&lt;p&gt;患者的愈后往往与原发病有着直接的关系，原发病越普通，愈后越良好。比如，急性高血压导致的心力衰竭病死率是最低的，且 处理方法多样，存活、出院率也最高；反观之，被称为泵衰竭的心源性休克，病死率却非常高。综上所述，对于急诊科的医生而言，面对心力衰竭患者要首先有一个 清晰的评估。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;急诊科心力衰竭的评估&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;急诊科对于心力衰竭患者的评估首先通过无创的检查，包括：心电图、X 线、动脉血气分析、钠尿肽、超声心动图。&lt;/p&gt;&lt;p&gt;1. 血氧饱和度监测：急诊科患者在进行心电监护时，急性肺水肿会影响其呼吸功能，因此，氧饱和度测量对医生来说可谓既简单又实用的一中方法，但需注意：&lt;br /&gt;（1）指脉氧只能监测氧饱和度，在氧离曲线中，只能看到饱和度的变化。不同于血气分析的是，它不能评估二氧化碳和患者的酸碱程度。&lt;br /&gt;（2）血氧饱和度在患者血流动力学极其不稳定的状况下，是非常不准确的。例如，临床上资历尚浅的医生，在监测到患者的血氧饱和度在 60%～70% 时非常惊慌。其实，此时不一定是患者的血氧有问题，有可能仅仅是因为患者的末梢循环差，而导致血氧饱和度异常。&lt;/p&gt;&lt;p&gt;2. 脑利钠肽监测：指南中也提到，临床上通过对脑利钠肽的变化来评估心功能，尤其在经过治疗后，如果脑利钠肽下降 30% 以上，基本可以确定心力衰竭得到了有效的治疗。&lt;/p&gt;&lt;p&gt;前脑利钠肽与脑利钠肽在血液中的生物学意义完全一样，但由于二者稳定程度和半衰期不同，因此，临床应用就完全不一样。由于前脑利钠肽可评估因年龄不同造成的心功能的不同状态，因此，急诊室床旁更常选用前脑利钠肽用于评估患者的心功能状态。&lt;/p&gt;&lt;p&gt;3. 心脏超声：它是心功能判别最重要的无创检查手段之一，不仅能评估心室的收缩、舒张功能，更重要的是可通过观察心脏的结构，从而判断心力衰竭的原因和诱因。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;急诊科心力衰竭的监测&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;急 性心力衰竭的监测大致可分为无创和有创。无创监测包括：基本生命体征、血氧、尿量和心电图等，有创监测包括：动脉血压、血流动力学监测、肺动脉导管等。而 有创监测使用的前提是患者出现了休克，临床常见为患者出现不明原因的休克，血流动力学不稳定，判别患者是否同时合并心功能障碍时才主张使用有创监测。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;急诊室急性心力衰竭的治疗&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;急诊室急性心力衰竭的治疗大致包括：氧疗、药物治疗、器械与外科治疗三大类。&lt;/p&gt;&lt;p&gt;&lt;span style=\"line-height:1.8;\"&gt;1. 药物使用经验：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;（1）吗啡：在心力衰竭的治疗中应尽早使用，特别在建立静脉通路之后对于烦躁、心率过快的患者尤为有效。&lt;/p&gt;&lt;p&gt;（2）利尿剂：使用利尿剂，去除体液储留是治疗急性心力衰竭的第一步。通常在使用的早期非常有效，但随着时间的推移，越使用，效果越不好，越不好，心力衰竭的症状越重。因而，利尿剂可以在短期内迅速减轻患者液体储留，但达到一定程度后便要小心使用。&lt;/p&gt;&lt;p&gt;（3）血管扩张剂：在急性心衰的急救中，血管扩张药物的选择较为重要，选择合适的血管扩张药物能够迅速降低患者的动静脉血压，从而减少心脏前后负荷，降低体循环压力，增加心脏有效输出量，改善患者全身机体缺血缺氧状态，从而对其预后起到积极效果。&lt;/p&gt;&lt;p&gt;但 临床经验是除非患者急性心力衰竭时存在明确的异常增高的血压，才强烈推荐动脉扩张剂，来降低心脏后负荷，从而改善心功能，而一般充血性心力衰竭的患者我们 建议使用静脉扩张剂或动静脉同时扩张剂，因为在出现心力衰竭时，患者通常后负荷是相对不足的，如果没有明显的交感兴奋所导致的血压增高，在应用动脉扩张药 物后，实际会加重患者的脏器灌注不良。&lt;/p&gt;&lt;p&gt;（4）正性肌力药物：多巴胺、多巴酚丁胺等新型药物药效较好。&lt;/p&gt;&lt;p&gt;2. 非药物治疗方法：最常见治疗方法为机械通气，无创通气与有创通气原理一样，均为正压通气，应用差异在于患者气道是否通畅。急性心力衰竭患者绝大部分不存在 气道阻塞问题，因而临床上强烈推荐无创通气。无创通气在改善心力衰竭患者急性期的呼吸功能、减轻肺水肿、减少静脉回流，降低前负荷有重要的作用，但当急性 心衰患者病情好转时，再给予无创通气，则出现相反的效果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;梅主任在会后做出总结，无 创通气治疗急性心力衰竭有着显著的疗效。心力衰竭患者由于左房压力的升高，肺静脉回流受限，导致肺静脉压升高，出现肺淤血或肺水肿，从而使得肺顺应性降 低，通气阻力增加，通气血流比例失调及氧交换障碍。吸气压（IPAP）主要改善通气功能，呼吸压力（EPAP）主要改善换气功能，心衰患者肺水肿增加后， 主要是换气功能不良。因此针对心衰患者在临床处置过程中建议参数调节，吸气压力调节应从小到大，而呼气则建议从一开始就给予中等或偏高的压力。&lt;/p&gt;",
+            "tags": "妥泰",
+            "release_time": "2016-03-12 00:00:00"
+        }
     }
 }
 ```
@@ -90,8 +105,8 @@
 
 ```javascript
 {
-    code:10001,
-    msg:"error",
-    data:null
+    error_code:10001,
+    error:"查询文献失败",
+    data:[]
 }
 ```
