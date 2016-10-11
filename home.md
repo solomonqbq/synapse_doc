@@ -49,4 +49,4 @@
 
 - [C端获取直播接口（H5调用）](api_client_department_subject_lvb)
 
-# 合作方对接接口 `接口平移，暂未测试可用性`(api_parterner)
+# [合作方对接接口 `接口平移，暂未测试可用性`](api_parterner)
