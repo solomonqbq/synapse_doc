@@ -28,7 +28,6 @@
 - [评论相关](api_comment) 
 
 # C端接口说明`接口平移，暂未测试可用性`
-- [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
 - [全部科室列表（H5调用）] (api_client_department_list) `已可用`
 - [用户已点阅的科室列表（H5调用）](api_client_user_attention_department)   `已可用`
 - [订阅单个科室（H5调用）](api_client_attention_department) `已可用`
@@ -39,13 +38,13 @@
 - [根据科室筛选QA（H5调用）](api/client/department/subject/qa/list)`已可用`
 - [根据科室筛选点播（H5调用）](api/client/department/subject/vod/list)`已可用`
 - [根据科室筛选直播（H5调用）](api/client/department/subject/lvb/list)`已可用`
-- [资讯（文献）详情（与友方app对接）](api_client_literature_info) 
-- [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
 - [C端获取资讯详情页面接口（H5调用）](api_client_department_subject_essay_detail)`已可用`
 - [C端获取问卷详情页面接口（H5调用）](api_client_department_subject_qa_detail)`已可用`
 - [C端问卷详情页答卷接口（H5调用）](api_client_department_subject_qa_survey)`已可用`
 - [C端获取点播接口（H5调用）](api_client_department_subject_vod)
-
 - [C端获取直播接口（H5调用）](api_client_department_subject_lvb)
 
 # [合作方对接接口](api_parterner)
+- [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
+- [资讯（文献）详情（与友方app对接）](api_client_literature_info) 
+- [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
