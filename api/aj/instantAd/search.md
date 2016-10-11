@@ -23,12 +23,36 @@
 
 > simple搜素
 ```javascript
-key={"title":"搜索"}
+         {  "type":"simple",
+            "key":{
+                "title": "xxx",
+                "cn_name": "",
+                "ta_name": "",
+                "start": 时间戳,
+                "end": 时间戳
+            },
+            "page": 1,
+            "count": 10,
+            "order": "create_time",
+            "order_type": "desc"
+        }
 ``` 
 
 > senior搜索
 ```javascript
-key={"general_name":"产品","ta_name":"领域","keyword":"信息点","start":"2016-01-01", "end":"2017-01-01"}
+{  "type":"senior",
+            "key":{
+                "title": "xxx",
+                "cn_name": "",
+                "ta_name": "",
+                "start": 时间戳,
+                "end": 时间戳
+            },
+            "page": 1,
+            "count": 10,
+            "order": "create_time",
+            "order_type": "desc"
+        }
 ```
 
 
