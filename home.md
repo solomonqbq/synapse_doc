@@ -20,7 +20,6 @@
 - [推广相关接口](api_promotion)
 - [用户资产相关接口](api_assets)
 - [扣费相关接口](api_charg)
-- [扣费日志收集相关接口](api_consum)
 - [第三方获取投放资源相关接口](api_source)
 - [统计相关接口](api_statistics)
 
