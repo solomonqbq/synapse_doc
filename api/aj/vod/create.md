@@ -56,18 +56,18 @@
 
 ##### 一个是防止网络不稳定导致的上传失败,另一个是允许断点续传。缺点是协议变得复杂，对于api使用者使用增大了一定的难度。我们可以通过下图理解分片上传的过程。
 
-![image](/uploads/e4366797c526cc561b5fcf25d704c155/image.png)
+(![kehuduan-1](/uploads/8917107734e81f076b4ec595dad1b458/kehuduan-1.png))
 
 ##### 从上图可以看出，分片上传完成后，会合并成一个文件，同时计算文件内容的sha值，如果与原始文件的sha值相同，这时文件上传成功。
 
 ##### 从上图可以看出，决定一个文件的分片有两个值，分别是偏移量(对应参数Offset)和分片大小(对应参数dataSize)，通过这两个参数，我们可以从一个文件中定位出该分片并取出它相应的内容，如下图所示。
 
-![image](/uploads/d8cc79a202b84d10a4381e133eacb3c2/image.png)
 
+![kehuduan-3](/uploads/4cd79af8b5945720bd004714df9094c2/kehuduan-3.png)
 
 ##### 因此，每次请求的方式以分片为粒度，使用create接口，构造上传完整文的流程如下图所示。
 
-![image](/uploads/b0a4257261985187a5340e527ead43f9/image.png)
+![kehuduan-2](/uploads/7b9020cb0791b74ee39bc8dbab62cf01/kehuduan-2.png)
 
 
 ##### 当客户端需要上传一个文件时，会上传第一个分片，第一个分片的偏移量offset为0，分片的大小dataSize 由上传分片的内容决定，建议最小为512KB 。
