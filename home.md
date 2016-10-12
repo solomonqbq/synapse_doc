@@ -16,7 +16,7 @@
 - [资讯相关接口](api_essay) `部分可用`
 - [QA相关接口](api_qa)
 
-- [直通车相关接口](api_instantAd)
+- [直通车相关接口](api_instantAd)`部分可用`
 - [推广相关接口](api_promotion)
 - [用户资产相关接口](api_assets)
 - [扣费相关接口](api_charg)
