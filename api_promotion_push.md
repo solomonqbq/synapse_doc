@@ -1,0 +1,2 @@
+- [C端“闪屏” 推送接口](api_promotion_push_splash)
+- [C端“Banner” 推送接口 ](api_promotion_push_banner)
