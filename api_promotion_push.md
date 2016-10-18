@@ -1,3 +1,3 @@
-- [C端“闪屏” 推送接口](api_promotion_push_splash)
-- [C端“Banner” 推送接口 ](api_promotion_push_banner)
-- [C端“feeds”推送接口](api_promotion_push_timeLine)
+- [C端“闪屏” 推送接口(医联)](api_promotion_push_splash)
+- [C端“Banner” 推送接口（医联） ](api_promotion_push_banner)
+- [C端“feeds”推送接口（杏仁）](api_promotion_push_timeLine)
