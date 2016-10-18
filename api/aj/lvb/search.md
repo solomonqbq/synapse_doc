@@ -26,7 +26,7 @@ lvb/search)
 
 > simple搜素
 ```javascript
-key={"title":"搜索"}
+key={"title":"","cn_name":"","ta_name":"","start":"","end":""}
 ``` 
 
 > senior搜索
