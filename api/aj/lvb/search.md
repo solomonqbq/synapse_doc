@@ -18,12 +18,11 @@ lvb/search)
 
 | 参数 | 类型| 是否必传 | 默认值 |  描述 | 
 | ---- | ---- | ----- | ----- | ----- | 
-| type | string | true | 无 | simple:简单搜索, senior:高级搜索 | 
 | key | json | true | 无 | 见下 |
 | page | integer | false | 1 | 页码 | 
 | count | integer | false | 10 | 每页个数 | 
-| extra | integer | false | 0 | 是否返回扩展字段，否:0, 是:1 | 
-| status | integer | false | 0 | 资讯状态，禁用:0, 激活:1, 2:过期，3:草稿，不传返回所有 | 
+| order | string | true | id | 排序字段 | 
+| order_type | string | true | desc | 排序方式 | 
 
 > simple搜素
 ```javascript
