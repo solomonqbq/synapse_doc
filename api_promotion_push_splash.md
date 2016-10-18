@@ -4,11 +4,11 @@
 ## 接口地址
 ###推送的医联地址
 [http://app.v3.medlinker.com/rest/v1/openapi/splash/add](http://app.v3.medlinker.com/rest/v1/openapi/splash/add)
-###idb接口地址
+
 
 ## 接口描述
 
-> C端推广位访问记录创建（C端一次性同步多条记录）
+>  IDB向医联推送推广（闪屏）
 
 ## 测试请求
 >
