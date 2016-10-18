@@ -11,12 +11,15 @@
 
 >  IDB向杏仁推送推广
 
+
 ## 测试请求
 >
+
 
 ## 认证方式
 
 > POST（form-urlencoded）
+
 
 ##杏仁要求的 请求参数(POST):
 
@@ -34,6 +37,7 @@
 | hospitalLevelIds(string)| true| 无 |C端医院等级id | 
 | departmentIds(string)| true| 无 |C端科室id | 
 | doctorTitleIds(string) true| 无 |C端适应症id | 
+
 
 ##杏仁响应数据(JSON):
 > 成功
