@@ -46,5 +46,4 @@
 
 # [合作方对接接口](api_parterner)
 - [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
-- [资讯（文献）详情（与友方app对接）](api_client_literature_info) 
 - [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
