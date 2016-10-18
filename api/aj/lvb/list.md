@@ -20,8 +20,6 @@
 | count | integer | true | 20 | 每页展示数量 | 
 | order | string | true | id | 排序字段 | 
 | order_type | string | true | desc | 排序方式 | 
-| extra | integer | false | 0 | 是否返回扩展字段，否:0, 是:1 | 
-| status | integer | false | 0 | 资讯状态，禁用:0, 激活:1, 2:过期，3:草稿，不传返回所有 | 
 
 ## 响应数据(JSON):
 > 成功
@@ -31,7 +29,7 @@
     code: 10000,
     msg: "success",
     data: {
-        list: [
+        data: [
             {
                 id: "3",
                 qcloud_channel_id: "16093425727655894615",
