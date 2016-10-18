@@ -47,4 +47,5 @@
 # [合作方对接接口](api_parterner)
 - [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
 - [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
-- [向C端推送物料接口（和app对接）](api_promotion)
+- [向C端推送物料接口（和app对接）](api_promotion_push)
+- [实时查询“C端”系统中符合条件的受众人数（app提供接口，IDB调用）](api_promotion_getNumber)
