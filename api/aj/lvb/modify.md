@@ -18,7 +18,6 @@
 | ---- | ---- | ----- | ----- | ----- | 
 | id | integer | true | 无 | 直播id |  
 | lvb | json | true | 无 | 直播相关信息 | 
-| content | json | true | 无  | 直播内容 |
 | promotion | json | true | 无 | 直播管理推广信息 |
 | relates |  json | true | 无 | 直播关联产品/TA/信息点 |
 | includings |  json | true | 无 | 推广覆盖面 |
@@ -41,10 +40,6 @@
         "author_introduction": "",
         "author_image": "",
         "status": ""
-    },
-    "content": {
-        "content_cn": "",
-        "content_en": ""
     },
     "promotion": { // 
         "template_id":"-1" // -1为新增模板
