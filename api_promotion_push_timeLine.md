@@ -23,9 +23,7 @@
 | 参数 | 是否必传 | 默认值 |  描述 | 
 | ---- | ----- | ----- | ----- | 
 | token| true| 无 | 双方约定的固定token值| 
-| pic | true| 无 | Banner（640x348），
-Timeline，标准图片大小是598x200。不填则没有图片。
-如果是闪屏，标准图片大小是750x1334| 
+| pic | true| 无 | Banner（640x348），Timeline，标准图片大小是598x200。不填则没有图片。如果是闪屏，标准图片大小是750x1334| 
 | title| true| 无 | Banner标题 | 
 | url| true| 无 |跳转链接  | 
 | checkNum| true| 无 | 校验参数 | 
