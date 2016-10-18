@@ -24,15 +24,9 @@ lvb/search)
 | order | string | true | id | 排序字段 | 
 | order_type | string | true | desc | 排序方式 | 
 
-> simple搜素
 ```javascript
 key={"title":"","cn_name":"","ta_name":"","start":"","end":""}
 ``` 
-
-> senior搜索
-```javascript
-key={"title":"名称","general_name":"产品","ta_name":"领域","keyword":"信息点","start":"2016-01-01", "end":"2017-01-01"}
-```
 
 
 ## 响应数据(JSON):
