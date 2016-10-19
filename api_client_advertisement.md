@@ -21,7 +21,6 @@
 | ---- | -----| ----- | ----- | ----- | 
 | bid | String|true | 无 |  请求的唯一id，32个字符的小写字符串|
 | app| object|true | 无 | App对象，客户端APP的信息，必须真实来源于客户端|
->|| ||
 |adspace_type|enum|true|无|广告位类型 枚举值类型 1 代表BANNER 2代表NATIVE信息流 3 代表OPENING闪屏开机广告|
 |uid|String|true|无|当且仅当一个页面有多个广告请求时标识用户浏览某个页面的行为，避免用户在同一页面不同位置上较大概率地看到相同的广告。32个字符的小写字符串，由媒体	端生成。生成规则：综合设备号、所在页面、毫秒时间戳三种属性，MD5后取小写值|
 |ip|String|true|无|客服端的ip|
@@ -30,6 +29,24 @@
 |user_agent|String|true|无|客户端的UserAgent|
 |ext|String|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
 
+## app 相关属性介绍
+| 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
+| ---- | -----| ----- | ----- | ----- | 
+|app_name|String|true|无|c端的应用名称|
+|package_name|String|true|无|应用的包名，应用的唯一标识|
+|app_version|String|true|无|应用版本号|
+##user_identity 相关属性介绍
+| 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
+| ---- | -----| ----- | ----- | ----- | 
+|region_id|json|true|无|地区;用id,name 的形式以json格式请求（如：{"id":001,"name":"华北地区"}）|
+|province_id|json|true|无|省 ;用id,name 的形式以json格式请求 如：{"id":1005,"name":"河北省"}|
+|city_id|json|true|无|市;用id,name 的形式以json格式请求 如：{"id":01,"name":"北京市"}|
+|hospital_id|json|true|无|医院，用id,name 的形式以json格式请求 如：{"id":01,"name":"协和医院"}|
+|hospital_grade|json|true|无|医院级别，用id,name 的形式以json格式请求 如：{"id":101,"name":"一级甲等"}|
+|department_id|json|true|无|医院科室，用id,name 的形式以json格式请求 如：{"id":321,"name":"外科"}|
+|doctor_grade|json|true|无|医生级别，用id,name 的形式以json格式请求 如：{"id":321,"name":"主治医师"}|
+|user_id|String|true|无|用户id|
+|user_name|String|true|无|用户名称|
 ## 请求数据(JSON):
 
 > 示例
@@ -63,7 +80,25 @@
 }
 ```
 
-## 响应数据(JSON):
+
+## 响应参数（json）:
+
+| 参数| 数据类型  | 是否必传|  描述 | 
+| ---- | -----| ----- | ----- | 
+| code| int|true |  响应码 10000 代表请求成功 10001代表请求失败|
+|msg|String|true|响应消息|
+|data|object|true|返回数据数据|
+
+## data 返回数据说明
+| 参数| 数据类型  | 是否必传|  描述 | 
+| ---- | -----| ----- | ----- | 
+|bid|Stirng|true|与BidRequest中的bid保持一致，32字节的字符串|
+|ad|object|true|广告资源内容|
+|creative|object|true|每个广告位的具体内容|
+|adm_type|String|true|广告素材类型 "PIC" 代表图片|
+|adm|object|true|广告素材对象|
+
+## 响应数据示例(JSON):
 
 > 成功
 
