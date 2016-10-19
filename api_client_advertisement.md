@@ -129,7 +129,7 @@
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |event_type|String|true|检测类型 “SHOW”代表报告检测 “CLICK”代表点击检测|
-|notify_url|array|srue|检测回掉链接|
+|notify_url|array|srue|检测回调链接|
 
 ## 响应数据示例(JSON):
 
@@ -147,21 +147,21 @@
                           "adm":{        //广告素材对象
 		                        "img":"http://synapse.com/a.jpg",
 		                        "desc":"推广描述文字",
-		                        "url":"http://landingpage.com" // 打开地址或下载地址 （落地页地址，目前均会填充，须支持HTTP和HTTPS）
-                                           }
-                                     }],
+		                        "url":"http://landingpage.com" // 打开地址或下载地址 （落地页地址，须支持HTTP和HTTPS）
+                                          }
+                                 }],
               "event_track":[{
                               "event_type": "SHOW",  // 展示监测 
                                "notify_url": [//检测回调地址
-                                               "http://show_notify_url_1",
-                                                "http://show_notify_url_2"
+                                          "http://show_notify_url_1",
+                                          "http://show_notify_url_2"
                                 ]
                            },
                            {
                                 "event_type": "CLICK",  //点击监测
                                 "notify_url": [
-                                                   "http://click_notify_url_1",
-                                                  "http://click_notify_url_2"
+                                            "http://click_notify_url_1",
+                                            "http://click_notify_url_2"
                                  ]
                        }]
                  }
@@ -171,7 +171,7 @@
 
 ```javascript
 {
-   code:10001,
+    code:10001,
     msg:"error",
     data:false
 }
