@@ -1,6 +1,11 @@
-- [概况信息统计相关接口](api_statistics_general_info)`可用`
-- [趋势数据统计相关接口](api_statistics_general_trend)`可用`
-- [地区访问量统计相关接口](api_statistics_general_area)`可用`
-- [访问频次统计相关接口](api_statistics_general_Frequency)`可用`
-- [医院分级／医生分级统计相关接口](api_statistics_general_grades)`可用`
-- [专注度统计相关接口](api_statistics_general_usercount)`可用`
+# 系统AJ接口说明
+
+- [概况统计相关接口](api_statistics_general)
+- [资讯统计相关接口](api_statistics_essay)
+- [问答统计相关接口](api_statistics_qa)
+- [点播统计相关接口](api_statistics_vod)
+- [直播统计相关接口](api_statistics_lvb)
+- [产品统计相关接口](api_statistics_product)
+- [治疗领域统计相关接口](api_statistics_ta)
+- [信息点统计相关接口](api_statistics_keypoint)
+- [直通车统计相关接口](api_statistics_express)
