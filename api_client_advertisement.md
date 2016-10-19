@@ -40,13 +40,13 @@
 ## user_identity 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
-|region_id|json|true|无|地区;用id,name 的形式以json格式请求（如：{"id":001,"name":"华北地区"}）|
-|province_id|json|true|无|省 ;用id,name 的形式以json格式请求 如：{"id":1005,"name":"河北省"}|
-|city_id|json|true|无|市;用id,name 的形式以json格式请求 如：{"id":01,"name":"北京市"}|
-|hospital_id|json|true|无|医院，用id,name 的形式以json格式请求 如：{"id":01,"name":"协和医院"}|
-|hospital_grade|json|true|无|医院级别，用id,name 的形式以json格式请求 如：{"id":101,"name":"一级甲等"}|
-|department_id|json|true|无|医院科室，用id,name 的形式以json格式请求 如：{"id":321,"name":"外科"}|
-|doctor_grade|json|true|无|医生级别，用id,name 的形式以json格式请求 如：{"id":321,"name":"主治医师"}|
+|region_id|String|true|无|地区id|
+|province_id|String|true|无|省 id|
+|city_id|String|true|无|市id|
+|hospital_id|String|true|无|医院id|
+|hospital_grade|String|false|无|医院级别id|
+|department_id|String|true|无|医院科室id|
+|doctor_grade|String|true|无|医生级别id|
 |user_id|String|true|无|用户id|
 |user_name|String|true|无|用户名称|
 
@@ -76,26 +76,26 @@
     "ip": "210.221.10.2",
     "network_type": 1,  /*网络类型*/
     "user_identity":{   
-		  "region_id":"地区id加名称",  
-		  "province_id":"省id加名称",
-		  "city_id":"市id加名称",
-		  "hospital_id":"医院id 加名称",
-		  "hospital_grade":"医院等级id加名称",
-		  "department_id":"科室id加名称",
-		  "doctor_grade":"医生等级id加名称",
+		  "region_id":"地区id",  
+		  "province_id":"省id",
+		  "city_id":"市id",
+		  "hospital_id":"医院id ",
+		  "hospital_grade":"医院等级id",
+		  "department_id":"科室id",
+		  "doctor_grade":"医生等级id",
 		  "user_id"："医生唯一标识",
                   "user_name":"医生名称"
 		}
-    "user_agent": "user_agent",
-    "device":[{
+     "user_agent": "user_agent",
+     "device":[{
              "device_id":[{
                        "device_id":"md5值或原始值",
                        "device_id_type":0,
                        "hash_type":0
               }],
              "os_type" :1
-    }],
-    "ext": "k1=v1;k2=v2"
+     }],
+     "ext": "k1=v1;k2=v2"
 }
 ```
 
