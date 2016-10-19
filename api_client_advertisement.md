@@ -54,24 +54,9 @@
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |device_id|String|true|无|设备id值，小写的原始值或小写的MD5值，MD5前请先转成小写字符串|
-|device_id_type|enum|true|无|设备id类型 枚举值 
-{
-UNKNOWN = 0; //未知
-IMEI = 1; //imei
-IDFA = 2; //idfa
-AAID = 3; //android id
-MAC = 4; //mac
-IDFV = 5; //idfv
-M2ID = 6; //
-SERIALID = 7; //
-IMSI = 8; //imsi
-}
-目前Android支持类型1,3,4,7,8
-如果不能保证客户端能取到，请传IMEI
-目前iOS支持类型2,5
-推荐传IFDA,IDFV |
 |hash_type|enum|true|无|设备id值哈希类型 0 代表原始值 1 代表MD5值|
 |os_type|enum|true|无|系统类型 1 代表 OS_IOS 2 代表OS_ANDOROID|
+|device_id_type|enum|true|无|设备id类型 枚举值 UNKNOWN = 0; //未知 IMEI = 1; //imei IDFA = 2; //idfa AAID = 3;//android id MAC = 4; //mac IDFV = 5; //idfv M2ID = 6; // SERIALID = 7; // IMSI = 8; //imsi  目前Android支持类型1,3,4,7,8              如果不能保证客户端能取到，请传IMEI 目前iOS支持类型2,5 推荐传IFDA,IDFV |
 
 ## 请求数据(JSON):
 
@@ -131,7 +116,7 @@ IMSI = 8; //imsi
 |creative|object|true|每个广告位的具体内容|
 |event_track|list of object|true|检测对象|
 
-##creative 对象属性说明
+## creative 对象属性说明
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |adm_type|String|true|广告素材类型"PIC"指图片|
@@ -140,7 +125,7 @@ IMSI = 8; //imsi
 |desc|String|true|推广描述文字|
 |url|String|true|推广访问链接|
 
-##event_track对象属性说明
+## event_track对象属性说明
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |event_type|String|true|检测类型 “SHOW”代表报告检测 “CLICK”代表点击检测|
