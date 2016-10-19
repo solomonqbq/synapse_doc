@@ -37,7 +37,7 @@
 |package_name|String|true|无|应用的包名，应用的唯一标识|
 |app_version|String|true|无|应用版本号|
 
-##user_identity 相关属性介绍
+## user_identity 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |region_id|json|true|无|地区;用id,name 的形式以json格式请求（如：{"id":001,"name":"华北地区"}）|
@@ -50,7 +50,7 @@
 |user_id|String|true|无|用户id|
 |user_name|String|true|无|用户名称|
 
-##device 相关属性介绍
+## device 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |device_id|String|true|无|设备id值，小写的原始值或小写的MD5值，MD5前请先转成小写字符串|
