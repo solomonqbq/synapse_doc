@@ -17,17 +17,18 @@
 
 ## 请求参数(post,json字符串):
 
-| 参数 | 是否必传 | 默认值 |  描述 | 
-| ---- | ----- | ----- | ----- | 
-| bid | true | 无 |  请求的唯一id，32个字符的小写字符串|
-| app| true | 无 | App对象，客户端APP的信息，必须真实来源于客户端|
-|adspace_type|true|无|广告位类型|
-|uid|true|无|当且仅当一个页面有多个广告请求时标识用户浏览某个页面的行为，避免用户在同一页面不同位置上较大概率地看到相同的广告。32个字符的小写字符串，由媒体	端生成。生成规则：综合设备号、所在页面、毫秒时间戳三种属性，MD5后取小写值|
-|ip|true|无|客服端的ip|
-|network_type|true|无|网络类型|
-|user_identity|true|无|当前访问用户相关属|
-|user_agent|true|无|客户端的UserAgent|
-|ext|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
+| 参数| 数据类型  | 是否必传 | 默认值 |  描述 | 
+| ---- | -----| ----- | ----- | ----- | 
+| bid | String|true | 无 |  请求的唯一id，32个字符的小写字符串|
+| app| object|true | 无 | App对象，客户端APP的信息，必须真实来源于客户端|
+>|| ||
+|adspace_type|enum|true|无|广告位类型 枚举值类型 1 代表BANNER 2代表NATIVE信息流 3 代表OPENING闪屏开机广告|
+|uid|String|true|无|当且仅当一个页面有多个广告请求时标识用户浏览某个页面的行为，避免用户在同一页面不同位置上较大概率地看到相同的广告。32个字符的小写字符串，由媒体	端生成。生成规则：综合设备号、所在页面、毫秒时间戳三种属性，MD5后取小写值|
+|ip|String|true|无|客服端的ip|
+|network_type|enum|true|无|网络类型 枚举值NET_UNKNOWN = 0; //未知 NET_WIFI = 1; //wifi NET_2G =2 ; //2G NET_3G =3 ; //3G NET_4G = 4; //4G|
+|user_identity|object|true|无|当前访问用户相关属|
+|user_agent|String|true|无|客户端的UserAgent|
+|ext|String|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
 
 ## 请求数据(JSON):
 
