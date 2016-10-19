@@ -36,6 +36,7 @@
 |app_name|String|true|无|c端的应用名称|
 |package_name|String|true|无|应用的包名，应用的唯一标识|
 |app_version|String|true|无|应用版本号|
+
 ##user_identity 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
@@ -48,6 +49,7 @@
 |doctor_grade|json|true|无|医生级别，用id,name 的形式以json格式请求 如：{"id":321,"name":"主治医师"}|
 |user_id|String|true|无|用户id|
 |user_name|String|true|无|用户名称|
+
 ##device 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
@@ -70,6 +72,7 @@ IMSI = 8; //imsi
 推荐传IFDA,IDFV |
 |hash_type|enum|true|无|设备id值哈希类型 0 代表原始值 1 代表MD5值|
 |os_type|enum|true|无|系统类型 1 代表 OS_IOS 2 代表OS_ANDOROID|
+
 ## 请求数据(JSON):
 
 > 示例
