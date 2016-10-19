@@ -43,6 +43,7 @@
 - [C端问卷详情页答卷接口（H5调用）](api_client_department_subject_qa_survey)`已可用`
 - [C端获取点播接口（H5调用）](api_client_department_subject_vod)
 - [C端获取直播接口（H5调用）](api_client_department_subject_lvb)
+- [C端获取广告资源接口](api_client_advertisement)
 
 # [合作方对接接口](api_parterner)
 - [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
