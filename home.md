@@ -44,6 +44,8 @@
 - [C端获取点播接口（H5调用）](api_client_department_subject_vod)
 - [C端获取直播接口（H5调用）](api_client_department_subject_lvb)
 - [C端获取广告资源接口](api_client_advertisement)
+- [C端曝光检测接口](api_client_show)
+- [C端点击检测接口](api_client_check)
 
 # [合作方对接接口](api_parterner)
 - [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
