@@ -22,7 +22,7 @@
 
 >示例
 ```javascript
-emkt.sfaessentials.com/api/ad/show?companyId=00023&ad_id=12&user_id=45e4e&bid=fewaf2
+emkt.sfaessentials.com/v2/openapi/{companyId}/ads/show?ad_id=12&user_id=45e4e&bid=fewaf2
 
 ## 响应数据(JSON):
 > 成功
