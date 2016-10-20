@@ -83,8 +83,7 @@
 		  "doctor_grade":"医生等级id",
 		  "user_id"："医生唯一标识",
                   "user_name":"医生名称"
-		}
-     "user_agent": "user_agent",
+		},
      "device":[{
               "device_id":"md5值或原始值",
               "device_id_type":0,
