@@ -6,7 +6,7 @@
 
 ## 接口描述
 
-> c端点击量检测接口
+> c端点击检测接口
 
 ## 认证方式
 
@@ -16,10 +16,9 @@
 
 | 参数 | 类型| 是否必传 | 默认值 |  描述 | 
 | ---- | ---- | ----- | ----- | ----- | 
-| companyId| string| true | 无 | c端的唯一标识| 
-| adId| int| true | 无  | 推广资源id |
-| userId| string| true| 无  |  用户id |
-| bid| string | true | 无 | c端请求资源唯一标识 |
+| ad_id| int| true | 无  | 推广资源id |
+| user_id| string| true| 无  |  用户id |
+| bid| string | true | 无 | 合作方请求资源唯一标识 ，与获取广告资源里的 bid一致|
 
 >示例
 ```javascript
@@ -39,8 +38,8 @@ emkt.sfaessentials.com/api/ad/check?companyId=00023&adId=12&userId=45e4e&bid=few
 
 ```javascript
 {
-    error_code:10001,
-    error:"检测提交失败",
+    code:10001,
+    msg:"检测提交失败",
     data:false
 }
 ```
