@@ -43,12 +43,15 @@
 - [C端问卷详情页答卷接口（H5调用）](api_client_department_subject_qa_survey)`已可用`
 - [C端获取点播接口（H5调用）](api_client_department_subject_vod)
 - [C端获取直播接口（H5调用）](api_client_department_subject_lvb)
-- [C端获取广告资源接口](api_client_advertisement)
-- [C端曝光检测接口](api_client_show)
-- [C端点击检测接口](api_client_check)
+
 
 # [合作方对接接口](api_parterner)
 - [C端医生信息转换IDB用户信息（友方app端调用）](api_client_initdoctor)  `已可用`
 - [同步C端访问日志接口（与友方app对接）](api_client_promotion_clientlog)
 - [向C端推送物料接口（和app对接）](api_promotion_push)
 - [实时查询“C端”系统中符合条件的受众人数（app提供接口，IDB调用）](api_promotion_getNumber)
+
+
+- [获取广告资源接口](api_client_advertisement)
+- [曝光检测接口](api_client_show)
+- [点击检测接口](api_client_check)
