@@ -1,3 +1,0 @@
-- [获取点播详情](api_client_department_subject_vod_detail)`已可用`
-- [开始点播播放](api_client_department_subject_vod_play)`已可用`
-- [记录有效播放](api_client_department_subject_vod_playtime)`已可用`

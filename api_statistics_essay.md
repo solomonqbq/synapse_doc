@@ -1,3 +1,0 @@
-- [概况信息统计相关接口](api_statistics_essay_info)
-- [地区统计相关接口](api_statistics_essay_area)
-- [趋势统计相关接口](api_statistics_essay_trend)

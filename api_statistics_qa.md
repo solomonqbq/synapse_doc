@@ -1,2 +1,0 @@
-- [概要统计相关接口](api_statistics_general_qa_info)
-- [答卷结果统计相关接口](api_statistics_general_qa_answer)
