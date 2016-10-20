@@ -16,7 +16,6 @@
 
 | 参数 | 类型| 是否必传 | 默认值 |  描述 | 
 | ---- | ---- | ----- | ----- | ----- | 
-| companyId| string| true | 无 | c端的唯一标识| 
 | adId| int| true | 无  | 推广资源id |
 | userId| string| false| 无  |  用户id |
 | bid| string | true | 无 | c端请求资源唯一标识 |
