@@ -108,7 +108,7 @@
 | ---- | -----| ----- | ----- | 
 | code| int|true |  响应码 10000 代表请求成功 10001代表请求失败|
 |msg|String|true|响应消息|
-|data|object|true|返回数据数据|
+|data|object|true|返回数据对象|
 
 ## data 返回数据说明
 | 参数| 数据类型  | 是否必传|  描述 | 
