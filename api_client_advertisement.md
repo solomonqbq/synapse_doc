@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/v2/api/subject/lvb/detail](http://emkt.sfaessentials.com/v2/api/subject/lvb/detail)
+[http://emkt.sfaessentials.com/v2/openapi/{companyId}/ad/fetch](http://emkt.sfaessentials.com/v2/openapi/{companyId}/ad/fetch)
 
 ## 接口描述
 
