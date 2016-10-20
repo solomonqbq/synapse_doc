@@ -26,7 +26,7 @@
 | 参数| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 | bid | String|true | 无 |  请求的唯一id，32个字符的小写字符串|
-| app| object|true | 无 | app对象，客户端APP的信息，必须真实来源于客户端,属性详细介绍参考下方[app属性介绍] (app)</A>|
+| app| object|true | 无 | app对象，客户端APP的信息，必须真实来源于客户端,属性详细介绍参考下方[app属性介绍] (#app)</A>|
 |adspace_type|enum|true|无|广告位类型 枚举值类型 1 :BANNER  2:NATIVE信息流  3 :OPENING闪屏开机广告|
 |network_type|enum|true|无|网络类型 枚举值0:NET_UNKNOWN未知  1:NET_WIFI wifi  2:NET_2G  2G 3:NET_3G 3G  4:NET_4G 4G|
 |user_identity|object|true|无|当前访问用户相关属,属性详细介绍参考下方[user_identity属性介绍] (## user_identity)|
