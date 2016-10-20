@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-[http://emkt.sfaessentials.com/v2/openapi/{companyId}/ad/fetch](http://emkt.sfaessentials.com/v2/openapi/{companyId}/ad/fetch)
+[http://emkt.sfaessentials.com/v2/openapi/{companyId}/ads/fetch](http://emkt.sfaessentials.com/v2/openapi/{companyId}/ads/fetch)
 
 ## 接口描述
 
