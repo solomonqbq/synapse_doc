@@ -29,8 +29,8 @@
 | app| object|true | 无 | app对象，客户端APP的信息，必须真实来源于客户端,属性详细介绍参考下方[app属性介绍] (#app)</A>|
 |adspace_type|enum|true|无|广告位类型 枚举值类型 1 :BANNER  2:NATIVE信息流  3 :OPENING闪屏开机广告|
 |network_type|enum|true|无|网络类型 枚举值0:NET_UNKNOWN未知  1:NET_WIFI wifi  2:NET_2G  2G 3:NET_3G 3G  4:NET_4G 4G|
-|user_identity|object|true|无|当前访问用户相关属,属性详细介绍参考下方[user_identity属性介绍] (## user_identity)|
-|device|object|true|无|访问设备对象信息,属性详细介绍参考下方[device属性介绍] (## device)|
+|user_identity|object|true|无|当前访问用户相关属,属性详细介绍参考下方[user_identity属性介绍] (#user_identity)|
+|device|object|true|无|访问设备对象信息,属性详细介绍参考下方[device属性介绍] (#device)|
 |ext|String|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
 ## app 相关属性介绍    <a name="app" />
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
@@ -39,7 +39,7 @@
 |package_name|String|true|无|应用的包名，应用的唯一标识 如 package_name:"com.yilian.com"| 
 |app_version|String|true|无|应用版本号   如 app_version:"1.1"|
 
-## user_identity 相关属性介绍（所有id均为合作方与synapse同步后，合作方自己的id）
+## user_identity 相关属性介绍（所有id均为合作方与synapse同步后，合作方自己的id） <a name="user_identity " />
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |province_id|String|true|无|省 id|
@@ -51,7 +51,7 @@
 |user_id|String|true|无|医生id|
 |user_name|String|true|无|医生名称|
 
-## device 相关属性介绍
+## device 相关属性介绍  <a name="device" />
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |device_id|String|true|无|设备id值，小写的原始值或小写的MD5值，MD5前请先转成小写字符串|
@@ -102,17 +102,21 @@
 | ---- | -----| ----- | ----- | 
 | code| int|true |  响应码 10000 :请求成功 10001:请求失败|
 |msg|String|true|响应消息|
-|data|object|true|返回数据对象,具体介绍请参考下方 [data 属性介绍](## data)|
+|data|object|true|返回数据对象,具体介绍请参考下方 [data 属性介绍](#data)|
 
-## data 返回数据说明
+## data 返回数据说明 <a name="data" />
 | 参数| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |bid|Stirng|true|与Request请求中的bid保持一致，32字节的字符串|
 |ad|object|true|广告资源内容|
-|creative|object|true|每个广告位的具体内容|
-|event_track|list of object|true|检测对象|
 
-## creative 对象属性说明
+
+## ad 对象属性说明 <a name="ad" />
+| 参数| 数据类型  | 是否必传|  描述 | 
+|creative|object|true|每个广告位的具体内容,对象具体属性请查看下方[ creative属性介绍](#creative)|
+|event_track|list of object|true|检测对象 ,对象具体属性请查看下方[ event_track属性介绍](#event_track)|
+
+## creative 对象属性说明 <a name="creative " />
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |adm_type|String|true|广告素材类型"PIC"指图片 "IMG_TEXT" 指图文混编|
@@ -121,7 +125,7 @@
 |desc|String|true|推广描述文字|
 |url|String|true|推广访问链接|
 
-## event_track对象属性说明
+## event_track对象属性说明 <a name="event_track" />
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |event_type|String|true|检测类型 “SHOW”代表报告检测 “CLICK”代表点击检测|
