@@ -1,7 +1,5 @@
 # 合作方获取广告资源接口:获取要展示的广告资源
 
-![synapse移动APP广告对接流程](/uploads/2c818963aa50d2655b0a23d44528aa4a/synapse移动APP广告对接流程.jpg)
-
 ## 接口地址
 
 [http://emkt.sfaessentials.com/v2/openapi/{companyId}/ads/fetch](#)
