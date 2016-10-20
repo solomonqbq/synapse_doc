@@ -39,7 +39,7 @@
 |package_name|String|true|无|应用的包名，应用的唯一标识 如 package_name:"com.yilian.com"| 
 |app_version|String|true|无|应用版本号   如 app_version:"1.1"|
 
-## user_identity 相关属性介绍（所有id均为合作方与synapse同步后，合作方自己的id） <a name="user_identity " />
+## user_identity 相关属性介绍（所有id均为合作方与synapse同步后，合作方自己的id） <a name="user_identity" />
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |province_id|String|true|无|省 id|
