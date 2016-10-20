@@ -32,7 +32,7 @@
 |user_identity|object|true|无|当前访问用户相关属,属性详细介绍参考下方[user_identity属性介绍] (## user_identity)|
 |device|object|true|无|访问设备对象信息,属性详细介绍参考下方[device属性介绍] (## device)|
 |ext|String|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
-## app 相关属性介绍    
+## app 相关属性介绍    <a name="app" />
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |app_name|String|true|无|c端的应用名称 如 app_name:"医疗"|
@@ -59,7 +59,6 @@
 |os_type|enum|true|无|系统类型 1 : OS_IOS  2 :OS_ANDOROID|
 |device_id_type|enum|true|无|设备id类型 枚举值 0:UNKNOWN 未知  1:IMEI imei  2:IDFA idfa  3:AAID android id  4:MAC mac  5:IDFV idfv 6:M2ID   7:SERIALID    8:IMSI imsi  目前Android支持类型1,3,4,7,8              如果不能保证客户端能取到，请传IMEI 目前iOS支持类型2,5 推荐传IFDA,IDFV |
 
-<a name="app" />
 ## 请求数据(JSON):
 
 > 示例
