@@ -108,15 +108,16 @@
 | 参数| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |bid|Stirng|true|与Request请求中的bid保持一致，32字节的字符串|
-|ad|object|true|广告资源内容|
+|ad|object|true|广告资源内容,对象具体属性请查看下方[ ad属性介绍](#ad)|
 
 
 ## ad 对象属性说明 <a name="ad" />
 | 参数| 数据类型  | 是否必传|  描述 | 
+| ---- | -----| ----- | ----- | 
 |creative|object|true|每个广告位的具体内容,对象具体属性请查看下方[ creative属性介绍](#creative)|
 |event_track|list of object|true|检测对象 ,对象具体属性请查看下方[ event_track属性介绍](#event_track)|
 
-## creative 对象属性说明 <a name="creative " />
+## creative 对象属性说明  <a name="creative" />
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |adm_type|String|true|广告素材类型"PIC"指图片 "IMG_TEXT" 指图文混编|
@@ -125,7 +126,7 @@
 |desc|String|true|推广描述文字|
 |url|String|true|推广访问链接|
 
-## event_track对象属性说明 <a name="event_track" />
+## event_track对象属性说明  <a name="event_track" />
 | 名称| 数据类型  | 是否必传|  描述 | 
 | ---- | -----| ----- | ----- | 
 |event_type|String|true|检测类型 “SHOW”代表报告检测 “CLICK”代表点击检测|
