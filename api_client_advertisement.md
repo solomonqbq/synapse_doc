@@ -33,7 +33,6 @@
 |device|object|true|无|访问设备对象信息,属性详细介绍参考下方[device属性介绍] (## device)|
 |ext|String|false|无|扩展字段  以K-V对的形式给出 以分号分隔多个值|
 ## app 相关属性介绍    
-<span id = "app"> 相关属性介绍</span>
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
 |app_name|String|true|无|c端的应用名称 如 app_name:"医疗"|
