@@ -52,6 +52,6 @@
 - [实时查询“C端”系统中符合条件的受众人数（app提供接口，IDB调用）](api_promotion_getNumber)
 
 <hr/>
-- [获取广告资源接口](ads/fetch)
+- [获取广告资源接口](api_client_advertisement)
 - [曝光检测接口](api_client_show)
 - [点击检测接口](api_client_check)
