@@ -6,7 +6,7 @@
 
 ## 接口描述
 
-> c端曝光量检测接口
+> c端曝光检测接口
 
 ## 认证方式
 
@@ -16,9 +16,9 @@
 
 | 参数 | 类型| 是否必传 | 默认值 |  描述 | 
 | ---- | ---- | ----- | ----- | ----- | 
-| adId| int| true | 无  | 推广资源id |
-| userId| string| false| 无  |  用户id |
-| bid| string | true | 无 | c端请求资源唯一标识 |
+| ad_id| int| true | 无  | 推广资源id |
+| user_id| string| false| 无  |  医生id |
+| bid| string | true | 无 | c合作方请求资源唯一标识 ，与请求广告资源里的bid一致 |
 
 >示例
 ```javascript
@@ -38,8 +38,8 @@ emkt.sfaessentials.com/api/ad/show?companyId=00023&adId=12&userId=45e4e&bid=fewa
 
 ```javascript
 {
-    error_code:10001,
-    error:"检测提交失败",
-    data:false
+   code: 10001,
+   msg: "提交监测失败",
+   data:  false,
 }
 ```
