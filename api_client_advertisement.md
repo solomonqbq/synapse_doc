@@ -38,7 +38,6 @@
 ## user_identity 相关属性介绍
 | 名称| 数据类型  | 是否必传 | 默认值 |  描述 | 
 | ---- | -----| ----- | ----- | ----- | 
-|region_id|String|true|无|地区id|
 |province_id|String|true|无|省 id|
 |city_id|String|true|无|市id|
 |hospital_id|String|true|无|医院id|
